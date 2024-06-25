@@ -1,0 +1,84 @@
+/* https://s9a.page/tape */
+:root{--tape-filter:none;--tape-bluv:#11dff1;--tape-play:#fbbfff;--tape-loud:#eee833;--tape-luvu:#44f477;--tape-blaq:#0e0e0e;--tape-watt:#e0e0e0;--tape-hex:#e0e0e0;--tape-mix:transparent}.tape-watt{--tape-hex:var(--tape-watt)}.tape-luvu{--tape-hex:var(--tape-luvu)}.tape-loud{--tape-hex:var(--tape-loud)}.tape-play{--tape-hex:var(--tape-play)}.tape-bluv{--tape-hex:var(--tape-bluv)}.tape-flat{border-color:transparent}.tape-flap{border-color:currentColor}.tape-flow{--tape-remix:none}.tape-flow :not(.tape-skip){background-color:transparent;color:inherit}.tape-blaq,.tape-bluv,.tape-loud,.tape-luvu,.tape-play,.tape-watt{--tape-mix:var(--tape-hex);--tape-remix:none;color:var(--tape-blaq)!important;background-color:var(--tape-mix)!important;background-image:var(--tape-remix);filter:var(--tape-filter)}.tape-blaq{--tape-mix:var(--tape-blaq);color:var(--tape-hex)!important}.tape-erase,.tape-erase *{color:transparent!important}
+
+/* play. */
+
+.pastel {
+  --tape-bluv: lightskyblue;
+  --tape-luvu: turquoise;
+  --tape-play: moccasin;
+}
+
+.pepper {
+  --tape-bluv: deepskyblue;
+}
+
+.pacify {
+  --tape-play: hotpink;
+}
+
+.saliva {
+  --tape-luvu: chartreuse;
+}
+
+::selection {
+  color: var(--tape-loud);
+  background: darkorchid;
+}
+
+:focus {
+  --tape-filter: hue-rotate(-18deg);
+  outline-color: thick outset;
+  border-radius: 0 9%;
+  box-shadow: 0 0 0 3vmax magenta;
+}
+
+.hype {
+  --tape-remix: linear-gradient(.2turn, thistle, skyblue, deepskyblue, skyblue, mediumorchid); 
+  font-family: sans-serif;
+  font-size: max(3ch, 2vmax + 3vmin);
+  line-height: 1.618;
+}
+
+.nah {
+  display: contents;
+}
+
+.byte {
+  display: block;
+  margin: auto;
+  margin-block-end: 1em;
+}
+
+.duende {
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.tickle {
+  writing-mode: vertical-lr;
+}
+
+.calm { font: inherit }
+.bold { font-weight: bold }
+.hella { font-size: 1.618em }
+.exhale { margin-bottom: 1rem }
+
+span,
+a {
+  display: inline-flex;
+  flex-flow: column;
+  transition: 500ms filter;
+}
+
+:link { box-sizing: border-box; padding: 2vmax }
+:visited { touch-action: manipulation }
+:nth-child(odd) { text-decoration-style: dotted }
+:focus { text-decoration-style: dashed } 
+:hover { text-decoration-style: wavy }
+
+.pad {
+  box-sizing: border-box;
+  padding: 1em;
+}
